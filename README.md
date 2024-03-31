@@ -20,25 +20,28 @@ DocBooker Backend is a robust backend solution for a doctor appointment booking 
 
    ```bash
    git clone https://github.com/yourusername/docbooker-backend.git
-npm install
 
-2. Setup .env file
-   PORT = 9700
-DB_URL = ""
+2. Install dependencies:
 
-JWT_SECRET = "" 
-JWT_EXPIRES = 
-ACTIVATION_SECRET = ""
+   ```bash
+   npm install
+3. Set up environment variables by creating a .env file:
 
-SMPT_SERVICE = gmail
-SMPT_HOST = smtp.gmail.com
-SMPT_PORT = 465 
-SMPT_PASSWORD =
-SMPT_MAIL = 
+   ```bash
+    PORT=9700
+    DB_URL=""
+    JWT_SECRET=""
+    JWT_EXPIRES=""
+    ACTIVATION_SECRET=""
+    SMTP_SERVICE=gmail
+    SMTP_HOST=smtp.gmail.com
+    SMTP_PORT=465
+    SMTP_PASSWORD=
+    SMTP_EMAIL=
+    CLOUDINARY_NAME=
+    CLOUDINARY_API_KEY=
+    CLOUDINARY_SECRET=
+    NODE_ENV=Production
+    STRIPE_API_KEY=.........................................
+    STRIPE_API_SECRET=.........................................
 
-CLOUDINARY_NAME= 
-CLOUDINARY_API_KEY=  
-CLOUDINARY_SECRET=  
-NODE_ENV = Production
-STRIPE_API_KEY=.........................................
-STRIPE_API_SECRET=.........................................
